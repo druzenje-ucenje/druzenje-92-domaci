@@ -18,18 +18,18 @@ var drzave = ['Albanija', 'Indonezija', 'Finska', 'Grcka'];
 var i = 0;
 if (drzave[i] = 'Grcka') {
     console.log('Fica je bio u ' + drzave[i] + '-oj.');
-    drzave[i] < drzave.length;
+    i < drzave.length;
     i++;
 } else {
     console.log('Fico, idi u Grcku');
 }
 
 // ni ovo ne radi - zasto?.......
-var drzaveDva = ['Albanija', 'Indonezija', 'Finska', 'Grocka', 'Egipat'];
+var drz = ['Albanija', 'Indonezija', 'Finska', 'Grocka', 'Egipat'];
 var i = 0;
-if (drzaveDva[i] = 'Grcka') {
-    console.log('Fica je bio u ' + drzaveDva[i] + '-oj.');
-    drzaveDva[i] < drzaveDva.length;
+if (drz[i] = 'Grcka') {
+    console.log('Fica je bio u ' + drz[i] + '-oj.');
+    i < drz.length;
     i++;
 } else {
     console.log('Fico, idi u Grcku');
