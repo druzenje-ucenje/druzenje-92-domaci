@@ -24,6 +24,7 @@ if (drzave[i] = 'Grcka') {
     console.log('Fico, idi u Grcku');
 }
 
+// ni ovo ne radi - zasto?.......
 var drzaveDva = ['Albanija', 'Indonezija', 'Finska', 'Grocka', 'Egipat'];
 var i = 0;
 if (drzaveDva[i] = 'Grcka') {
