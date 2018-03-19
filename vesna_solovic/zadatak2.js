@@ -5,14 +5,19 @@
 
 var nizic = [1, 2, 3, 4, 5];
 
+var zbir = 0;
+
 for (var i = 0; i < nizic.length; i++) {
     console.log(nizic[i]);
+    zbir += nizic[i];
 }
+console.log('zbir (prvi slucaj) svih clanova niza je: ' + zbir);
 
-var zbir = nizic.reduce(add, 0);
+
+//  drugo resenje
+var zbir2 = nizic.reduce(add, 0);
 
 function add(a, b) {
     return a + b;
 }
-
-console.log('zbir svih clanova niza je: ' + zbir);
+console.log('zbir (drugi slucaj) svih clanova niza je: ' + zbir2);
